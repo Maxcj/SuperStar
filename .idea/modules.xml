@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mainproject.iml" filepath="$PROJECT_DIR$/mainproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modlue-api/modlue-api.iml" filepath="$PROJECT_DIR$/modlue-api/modlue-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-goods/module-goods.iml" filepath="$PROJECT_DIR$/module-goods/module-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-shoppingcar/module-shoppingcar.iml" filepath="$PROJECT_DIR$/module-shoppingcar/module-shoppingcar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-user/module-user.iml" filepath="$PROJECT_DIR$/module-user/module-user.iml" />
+    </modules>
+  </component>
+</project>
