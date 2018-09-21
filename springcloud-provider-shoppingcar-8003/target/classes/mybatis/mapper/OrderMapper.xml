@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.maxcj.springcloud.dao.ShoppingCarDAO">
+    
+    <insert id="AddGoodToShoppingCar" parameterType="Order">
+        insert into t_order(uid,gid,gnum,summoney) values(#{uid}, #{gid}, #{gnum}, #{summoney})
+    </insert>
+
+    <delete id="DeleteShoppingCar" parameterType="Integer">
+        DELETE FROM t_order WHERE gid=#{gid}
+    </delete>
+
+    <update id="UpdateShoppingCar" parameterType="Order">
+        UPDATE t_order SET gnum=#{gnum} WHERE oid = #{oid}
+    </update>
+
+    <select id="SelectByid" resultType="Order" parameterType="Integer">
+        SELECT * FROM t_order WHERE oid=#{oid}
+    </select>
+
+    <select id="SelectByUser" resultType="Integer">
+        SELECT * from t_order WHERE uid=#{uid}
+    </select>
+
+    <!-- 商品种类  -->
+    <insert id="AddType" parameterType="GoodsType">
+        INSERT INTO t_type(tname) VALUES(#{tname})
+    </insert>
+
+    <delete id="DeleteType" parameterType="Integer">
+        DELETE FROM t_type WHERE tid=#{tid}
+    </delete>
+
+    <update id="UpdateType" parameterType="GoodsType">
+        UPDATE t_type SET tname = #{tname} WHERE tid = #{tid}
+    </update>
+
+    <select id="SelectTypeById" parameterType="Integer">
+        SELECT * FROM t_type WHERE tid = #{tid}
+    </select>
+
+    <select id="SelectAllType" resultType="GoodsType">
+        SELECT * FROM t_type
+    </select>
+
+
+
+
+</mapper>
+
+

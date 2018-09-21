@@ -1,0 +1,5 @@
+cn\maxcj\springcloud\service\impl\GoodsServiceImpl.class
+cn\maxcj\springcloud\GoodsProvider8002_App.class
+cn\maxcj\springcloud\dao\GoodsDAO.class
+cn\maxcj\springcloud\service\GoodsService.class
+cn\maxcj\springcloud\controller\GoodsController.class

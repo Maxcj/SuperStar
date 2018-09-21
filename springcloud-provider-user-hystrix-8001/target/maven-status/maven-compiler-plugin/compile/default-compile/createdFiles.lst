@@ -1,0 +1,5 @@
+cn\maxcj\springcloud\controller\UserController.class
+cn\maxcj\springcloud\dao\UserDao.class
+cn\maxcj\springcloud\service\UserService.class
+cn\maxcj\springcloud\UserProvider_Hystrix_8001_App.class
+cn\maxcj\springcloud\service\impl\UserServiceImpl.class

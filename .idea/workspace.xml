@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0451b7c-d9ff-4d1e-8465-1d3ebcfb79bd" name="Default" comment="" />
+    <list default="true" id="9ad8c0b4-cbce-4e14-9430-aac6e6ef4b21" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/module-goods/target/" />
-    <ignored path="$PROJECT_DIR$/module-shoppingcar/target/" />
-    <ignored path="$PROJECT_DIR$/module-user/target/" />
-    <ignored path="$PROJECT_DIR$/modlue-api/target/" />
+    <ignored path="$PROJECT_DIR$/springcloudapi/target/" />
+    <ignored path="$PROJECT_DIR$/shoppingprovideruser8001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloudconsumeruser80/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-7001/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-provider-user-8001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consumer-user-80/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-api/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-eureka-7002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consumer-user-feign/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-user-hystrix-8001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-config-3344/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-user-8001/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-config-client-3355/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-good-8002/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-provider-shoppingcar-8003/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-consumer-feign/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-provider-good-8004/target/" />
+    <ignored path="$PROJECT_DIR$/shopping-consumer-80/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-fegin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,53 +30,79 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/shopping$UserProvider8001_App.coverage" NAME="UserProvider8001_App Coverage Results" MODIFIED="1533627984392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.maxcj.springcloud.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module-shoppingcar/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="EurekaServer7001_App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/src/main/java/cn/maxcj/springcloud/EurekaServer7001_App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modlue-api/pom.xml">
+      <file leaf-file-name="mybatis.cfg.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-provider-good-8002/src/main/resources/mybatis/mybatis.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="170">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module-goods/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module-shoppingcar/src/main/resources/application.properties">
+      <file leaf-file-name="GoodsMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-provider-good-8002/src/main/resources/mybatis/mapper/GoodsMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1533710016073" expanded="true" signature="304:450" ph="insert into t_goods... " />
+                <marker date="1533710016073" expanded="true" signature="531:567" ph="DELETE FROM " />
+                <marker date="1533710016073" expanded="true" signature="670:814" ph="UPDATE t_goo... " />
+                <marker date="1533710016073" expanded="true" signature="944:982" ph="SELECT * FRO... t_goods" />
+                <marker date="1533710016073" expanded="true" signature="1053:1074" ph="SELECT * fro... t_goods" />
+                <marker date="1533710016073" expanded="true" signature="1171:1213" ph="INSERT INTO t_type... " />
+                <marker date="1533710016073" expanded="true" signature="1290:1325" ph="DELETE FROM " />
+                <marker date="1533710016073" expanded="true" signature="1404:1457" ph="UPDATE t_typ... " />
+                <marker date="1533710016073" expanded="true" signature="1538:1577" ph="SELECT * FRO... t_type" />
+                <marker date="1533710016073" expanded="true" signature="1656:1676" ph="SELECT * FRO... t_type" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-provider-good-8002/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsProvider8002_App.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springcloud-provider-good-8002/src/main/java/cn/maxcj/springcloud/GoodsProvider8002_App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,6 +113,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -84,8 +127,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/springcloud-provider-user-8001/src/main/resources/mybatis/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user-8001/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user-8001/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user-8001/src/main/java/cn/maxcj/springcloud/component/MyLocaleResolver.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user-8001/src/main/java/cn/maxcj/springcloud/component/MyErrorAttributes.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user-8001/src/main/java/cn/maxcj/springcloud/component/LoginHandlerInterceptor.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user-8001/src/main/java/cn/maxcj/springcloud/config/MyMvcConfig.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user-8001/src/main/java/cn/maxcj/springcloud/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user-8001/src/main/resources/templates/application.properties" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user-8001/src/main/java/cn/maxcj/springcloud/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-user-8001/src/main/java/cn/maxcj/springcloud/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-good-8002/src/main/resources/public/index.html" />
+        <option value="$PROJECT_DIR$/springcloud-provider-good-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-good-8002/src/test/java/add.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-good-8002/src/main/java/cn/maxcj/springcloud/service/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-good-8002/src/main/java/cn/maxcj/springcloud/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-good-8002/src/main/java/cn/maxcj/springcloud/dao/GoodsDAO.java" />
+        <option value="$PROJECT_DIR$/springcloud-config-3344/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-good-8002/src/main/java/cn/maxcj/springcloud/GoodsProvider8002_App.java" />
+        <option value="$PROJECT_DIR$/shopping-provider-good-8004/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-provider-good-8004/src/main/java/cn/maxcj/springcloud/GoodsProvider8004_App.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-feign/src/main/java/cn/maxcj/springcloud/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-user-80/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-user-80/src/main/java/cn/maxcj/springcloud/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-user-80/src/main/java/cn/maxcj/springcloud/cfgbeans/ConfigBean.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/modlue-api/src/main/java/cn/teamfive/mainproject/modlueapi/entities/User.java" />
+        <option value="$PROJECT_DIR$/shopping-consumer-80/src/main/java/cn/maxcj/springcloud/cfgbean/ConfigBean.java" />
+        <option value="$PROJECT_DIR$/springcloud-api/src/main/java/cn/maxcj/springcloud/entities/Goods.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-good-8002/src/main/resources/mybatis/mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/shopping-provider-good-8004/src/main/resources/mybatis/mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/shopping-provider-good-8004/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-api/src/main/java/cn/maxcj/springcloud/service/GoodsClientService.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-feign/src/main/java/cn/maxcj/springcloud/cfgbeans/ConfigBean.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-feign/src/main/java/cn/maxcj/springcloud/controller/GoodsController_Consumer.java" />
+        <option value="$PROJECT_DIR$/springcloud-provider-good-8002/src/main/java/cn/maxcj/springcloud/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/shopping-consumer-80/src/main/java/cn/maxcj/springcloud/controller/GoodsController_Consumer.java" />
+        <option value="$PROJECT_DIR$/shopping-consumer-80/src/main/java/cn/maxcj/springcloud/GoodsConsumer_80_App.java" />
+        <option value="$PROJECT_DIR$/shopping-consumer-80/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/shopping-consumer-80/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-consumer-80/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/shopping-consumer-80/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-feign/src/main/java/cn.maxcj.springcloud/GoodsController_Consumer.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/shopping-consumer-80/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-fegin/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-fegin/src/main/java/cn.maxcj.springcloud/GoodsController_Consumer.java" />
+        <option value="$PROJECT_DIR$/springcloud-consumer-feign/src/main/java/cn.maxcj.springcloud/controller/GoodsController_Consume.java" />
+        <option value="$PROJECT_DIR$/springcloud-fegin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-good-8002/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -102,19 +194,25 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="135" />
-    <option name="y" value="134" />
-    <option name="width" value="1617" />
-    <option name="height" value="827" />
+    <option name="x" value="299" />
+    <option name="y" value="74" />
+    <option name="width" value="1569" />
+    <option name="height" value="942" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="true" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -123,30 +221,129 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="mainproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mainproject" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-consumer-80" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="shopping-provider-good-8004" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-eureka-7002" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-fegin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-good-8002" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-good-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-good-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-good-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-good-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud-provider-good-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/springboot04_crud/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="show.run.dashboard.notification" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Idea\shopping\springcloud-provider-user-8001\src\main\resources\staric" />
+      <recent name="D:\Idea\shopping\springcloud-provider-user-8001\src\main\resources" />
+      <recent name="D:\Idea\shopping\springcloud-provider-user-8001\src\main\resources\staric\css" />
+      <recent name="D:\Idea\shopping\springcloud-provider-user-8001\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.maxcj.springcloud.controller" />
+      <recent name="cn.maxcj.springcloud.config" />
+      <recent name="cn.maxcj.springcloud.entities" />
+      <recent name="cn.maxcj.springcloud.cfgbeans" />
+      <recent name="springcloud" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Idea\shopping\springcloud-fegin\src\main\java" />
+      <recent name="D:\Idea\shopping\springcloud-consumer-feign\src\main\resources" />
+      <recent name="D:\Idea\shopping\shopping-consumer-80\src\main\java\cn\maxcj\springcloud" />
+      <recent name="D:\Idea\shopping\shopping-provider-good-8004\src\main\resources" />
+      <recent name="D:\Idea\shopping\shopping-provider-good-8004\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,29 +357,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ModuleGoodsApplication">
-    <configuration name="ModlueApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.teamfive.mainproject.modlueapi.ModlueApiApplication" />
-      <module name="modlue-api" />
+  <component name="RunManager" selected="Spring Boot.GoodsProvider8004_App">
+    <configuration name="EurekaServer7001_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.maxcj.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.maxcj.springcloud.EurekaServer7001_App" />
+      <module name="springcloud-eureka-7001" />
       <envs />
     </configuration>
-    <configuration name="ModuleGoodsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.teamfive.mainproject.modulegoods.ModuleGoodsApplication" />
-      <module name="module-goods" />
+    <configuration name="EurekaServer7002_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.EurekaServer7002_App" />
+      <module name="springcloud-eureka-7002" />
       <envs />
     </configuration>
-    <configuration name="ModuleShoppingcarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.teamfive.mainproject.moduleshoppingcar.ModuleShoppingcarApplication" />
-      <module name="module-shoppingcar" />
+    <configuration name="GoodsController_Consumer (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.maxcj.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.maxcj.springcloud.GoodsController_Consumer" />
+      <module name="springcloud-fegin" />
       <envs />
     </configuration>
-    <configuration name="ModuleUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.teamfive.superstar.mainproject.moduleuser.ModuleUserApplication" />
-      <module name="module-user" />
+    <configuration name="GoodsProvider8002_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.maxcj.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.maxcj.springcloud.GoodsProvider8002_App" />
+      <module name="springcloud-provider-good-8002" />
+      <envs />
+    </configuration>
+    <configuration name="GoodsProvider8004_App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.maxcj.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.maxcj.springcloud.GoodsProvider8004_App" />
+      <module name="shopping-provider-good-8004" />
+      <envs />
+    </configuration>
+    <configuration name="UserProvider8001_App" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.maxcj.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cn.maxcj.springcloud.UserProvider8001_App" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="springcloud-provider-user-8001" />
       <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -266,57 +513,105 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.ModuleGoodsApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ModuleShoppingcarApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ModuleUserApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ModlueApiApplication" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Application.UserProvider8001_App" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.GoodsController_Consumer (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.EurekaServer7002_App" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.EurekaServer7001_App" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.GoodsProvider8004_App" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.GoodsProvider8002_App" />
     </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.GoodsProvider8004_App" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.EurekaServer7001_App" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.GoodsProvider8002_App" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.GoodsController_Consumer (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.EurekaServer7002_App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d0451b7c-d9ff-4d1e-8465-1d3ebcfb79bd" name="Default" comment="" />
-      <created>1532739585901</created>
+      <changelist id="9ad8c0b4-cbce-4e14-9430-aac6e6ef4b21" name="Default" comment="" />
+      <created>1533029349916</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1532739585901</updated>
-      <workItem from="1532739590594" duration="1892000" />
+      <updated>1533029349916</updated>
+      <workItem from="1533029353930" duration="1462000" />
+      <workItem from="1533030856274" duration="3019000" />
+      <workItem from="1533034858486" duration="85000" />
+      <workItem from="1533085569494" duration="7539000" />
+      <workItem from="1533100947095" duration="2057000" />
+      <workItem from="1533163268802" duration="2157000" />
+      <workItem from="1533172082481" duration="594000" />
+      <workItem from="1533214754201" duration="1752000" />
+      <workItem from="1533345367589" duration="19123000" />
+      <workItem from="1533431251808" duration="2914000" />
+      <workItem from="1533452706650" duration="5526000" />
+      <workItem from="1533518104539" duration="29415000" />
+      <workItem from="1533604273851" duration="18701000" />
+      <workItem from="1533631776504" duration="3587000" />
+      <workItem from="1533638410603" duration="6471000" />
+      <workItem from="1533690142174" duration="4954000" />
+      <workItem from="1533705726088" duration="17537000" />
+      <workItem from="1535351931980" duration="3540000" />
+      <workItem from="1536119904838" duration="41000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="add_test - 2018.08.07 at 20h 58m 49s.xml">
+      <configuration name="add.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="add_test - 2018.08.07 at 20h 59m 46s.xml">
+      <configuration name="add.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="add_test - 2018.08.07 at 21h 00m 53s.xml">
+      <configuration name="add.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="add_test - 2018.08.07 at 21h 06m 50s.xml">
+      <configuration name="add.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1892000" />
+    <option name="totallyTimeSpent" value="130474000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="134" width="1617" height="827" extended-state="0" />
+    <frame x="299" y="74" width="1569" height="942" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2495238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38528678" sideWeight="0.5028169" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25370252" sideWeight="0.491453" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37620193" sideWeight="0.49718308" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26400515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1915493" sideWeight="0.508547" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,58 +625,120 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/module-user/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/src/main/java/cn/maxcj/springcloud/EurekaServer7001_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-good-8002/src/main/resources/mybatis/mybatis.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-good-8002/src/main/resources/mybatis/mapper/GoodsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1533710016073" expanded="true" signature="304:450" ph="insert into t_goods... " />
+            <marker date="1533710016073" expanded="true" signature="531:567" ph="DELETE FROM " />
+            <marker date="1533710016073" expanded="true" signature="670:814" ph="UPDATE t_goo... " />
+            <marker date="1533710016073" expanded="true" signature="944:982" ph="SELECT * FRO... t_goods" />
+            <marker date="1533710016073" expanded="true" signature="1053:1074" ph="SELECT * fro... t_goods" />
+            <marker date="1533710016073" expanded="true" signature="1171:1213" ph="INSERT INTO t_type... " />
+            <marker date="1533710016073" expanded="true" signature="1290:1325" ph="DELETE FROM " />
+            <marker date="1533710016073" expanded="true" signature="1404:1457" ph="UPDATE t_typ... " />
+            <marker date="1533710016073" expanded="true" signature="1538:1577" ph="SELECT * FRO... t_type" />
+            <marker date="1533710016073" expanded="true" signature="1656:1676" ph="SELECT * FRO... t_type" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-shoppingcar/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-good-8002/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="21" column="41" lean-forward="true" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-shoppingcar/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-good-8002/src/main/java/cn/maxcj/springcloud/GoodsProvider8002_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/src/main/java/cn/maxcj/springcloud/EurekaServer7001_App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-good-8002/src/main/resources/mybatis/mybatis.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-good-8002/src/main/resources/mybatis/mapper/GoodsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1533710016073" expanded="true" signature="304:450" ph="insert into t_goods... " />
+            <marker date="1533710016073" expanded="true" signature="531:567" ph="DELETE FROM " />
+            <marker date="1533710016073" expanded="true" signature="670:814" ph="UPDATE t_goo... " />
+            <marker date="1533710016073" expanded="true" signature="944:982" ph="SELECT * FRO... t_goods" />
+            <marker date="1533710016073" expanded="true" signature="1053:1074" ph="SELECT * fro... t_goods" />
+            <marker date="1533710016073" expanded="true" signature="1171:1213" ph="INSERT INTO t_type... " />
+            <marker date="1533710016073" expanded="true" signature="1290:1325" ph="DELETE FROM " />
+            <marker date="1533710016073" expanded="true" signature="1404:1457" ph="UPDATE t_typ... " />
+            <marker date="1533710016073" expanded="true" signature="1538:1577" ph="SELECT * FRO... t_type" />
+            <marker date="1533710016073" expanded="true" signature="1656:1676" ph="SELECT * FRO... t_type" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-good-8002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module-goods/pom.xml">
+    <entry file="file://$PROJECT_DIR$/springcloud-provider-good-8002/src/main/java/cn/maxcj/springcloud/GoodsProvider8002_App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="33" column="43" lean-forward="true" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modlue-api/src/main/java/cn/teamfive/mainproject/modlueapi/entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modlue-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="187">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -438,7 +795,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>module-user</last-edited>
+          <last-edited>shopping-provider-good-8004</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -449,32 +806,9 @@
           </splitter-proportions>
         </settings>
       </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

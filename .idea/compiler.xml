@@ -2,23 +2,52 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mainproject" />
-        <module name="modlue-api" />
-        <module name="module-goods" />
-        <module name="module-shoppingcar" />
-        <module name="module-user" />
+        <module name="shopping-consumer-80" />
+        <module name="shopping-provider-good-8004" />
+        <module name="shopping-provider-user-8001" />
+        <module name="shoppingprovideruser8001" />
+        <module name="springcloud-api" />
+        <module name="springcloud-config-3344" />
+        <module name="springcloud-config-client-3355" />
+        <module name="springcloud-consumer-feign" />
+        <module name="springcloud-consumer-user-feign" />
+        <module name="springcloud-eureka-7001" />
+        <module name="springcloud-eureka-7002" />
+        <module name="springcloud-fegin" />
+        <module name="springcloud-provider-good-8002" />
+        <module name="springcloud-provider-shoppingcar-8003" />
+        <module name="springcloud-provider-user-8001" />
+        <module name="springcloud-provider-user-hystrix-8001" />
+        <module name="springcloudapi" />
+        <module name="springcloudconsumeruser80" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mainproject" target="1.8" />
-      <module name="modlue-api" target="1.8" />
-      <module name="module-goods" target="1.8" />
-      <module name="module-shoppingcar" target="1.8" />
-      <module name="module-user" target="1.8" />
+      <module name="shopping" target="1.8" />
+      <module name="shopping-consumer-80" target="1.8" />
+      <module name="shopping-provider-good-8004" target="1.8" />
+      <module name="shopping-provider-user-8001" target="1.8" />
+      <module name="shoppingprovideruser8001" target="1.8" />
+      <module name="springcloud-api" target="1.8" />
+      <module name="springcloud-config-3344" target="1.8" />
+      <module name="springcloud-config-client-3355" target="1.8" />
+      <module name="springcloud-consumer-feign" target="1.8" />
+      <module name="springcloud-consumer-user-80" target="1.8" />
+      <module name="springcloud-consumer-user-feign" target="1.8" />
+      <module name="springcloud-eureka-7001" target="1.8" />
+      <module name="springcloud-eureka-7002" target="1.8" />
+      <module name="springcloud-fegin" target="1.8" />
+      <module name="springcloud-provider-good-8002" target="1.8" />
+      <module name="springcloud-provider-shoppingcar-8003" target="1.8" />
+      <module name="springcloud-provider-user-8001" target="1.8" />
+      <module name="springcloud-provider-user-hystrix-8001" target="1.8" />
+      <module name="springcloudapi" target="1.8" />
+      <module name="springcloudconsumeruser80" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

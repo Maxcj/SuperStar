@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.maxcj.springcloud.dao.UserDao">
+
+    <!--<select id="findById" resultType="Dept" parameterType="Long">
+        select deptno,dname,db_source from dept where deptno=#{deptno};
+    </select>
+    <select id="findAll" resultType="Dept">
+        select deptno,dname,db_source from dept;
+    </select>
+    <insert id="addDept" parameterType="Dept">
+        INSERT INTO dept(dname,db_source) VALUES(#{dname},DATABASE());
+    </insert>
+
+    insert into user(username,password,role,db_source) values('maxcj','000000','1',database())
+
+    -->
+    
+    <insert id="addUser" parameterType="User">
+        insert into user(username,password,db_source) values(#{username}, #{password}, database())
+    </insert>
+
+    <delete id="deleteUser" parameterType="Integer">
+        DELETE FROM USER WHERE uid=#{uid}
+    </delete>
+
+    <!--<update id="updateUserInfo" parameterType="">
+
+    </update>-->
+
+    <select id="findById" resultType="User" parameterType="Integer">
+        SELECT * FROM USER WHERE uid=#{uid}
+    </select>
+
+    <select id="login" parameterType="String" resultType="User">
+        SELECT * FROM USER WHERE USERNAME=#{username} AND PASSWORD=#{password}
+    </select>
+    
+    <select id="findAll" resultType="User">
+        SELECT * from user
+    </select>
+
+
+
+
+
+
+</mapper>
+
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.maxcj.springcloud.dao.GoodsDAO">
+    
+    <insert id="AddGoods" parameterType="cn.maxcj.springcloud.entities.Goods">
+        insert into t_goods(gname,gcontent,gtype,gnum,gmoney,uid,dbsource) values(#{gname}, #{gcontent}, #{gtype}, #{gnum}, #{gmoney}, #{uid}, database())
+    </insert>
+
+    <delete id="DeleteGoodById" parameterType="Integer">
+        DELETE FROM t_goods WHERE gid=#{gid}
+    </delete>
+
+    <update id="EditGood" parameterType="cn.maxcj.springcloud.entities.Goods">
+        UPDATE t_goods SET gname = #{gname}, gcontent=#{gcontent}, gtype=#{gtype}, gnum=#{gnum}, gmoney=#{gmoney}, uid=#{uid}
+        WHERE gid = #{gid}
+    </update>
+
+    <select id="SelectGoodById" resultType="cn.maxcj.springcloud.entities.Goods" parameterType="Integer">
+        SELECT * FROM t_goods WHERE gid=#{gid}
+    </select>
+
+    <select id="SelectAll" resultType="Goods">
+        SELECT * from t_goods
+    </select>
+
+
+
+    <!-- 商品种类  -->
+    <insert id="AddType" parameterType="GoodsType">
+        INSERT INTO t_type(tname) VALUES(#{tname})
+    </insert>
+
+    <delete id="DeleteType" parameterType="Integer">
+        DELETE FROM t_type WHERE tid=#{tid}
+    </delete>
+
+    <update id="UpdateType" parameterType="GoodsType">
+        UPDATE t_type SET tname = #{tname} WHERE tid = #{tid}
+    </update>
+
+    <select id="SelectTypeById" parameterType="Integer">
+        SELECT * FROM t_type WHERE tid = #{tid}
+    </select>
+
+    <select id="SelectAllType" resultType="GoodsType">
+        SELECT * FROM t_type
+    </select>
+
+
+
+
+</mapper>
+
+

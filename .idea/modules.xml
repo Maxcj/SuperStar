@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/mainproject.iml" filepath="$PROJECT_DIR$/mainproject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/modlue-api/modlue-api.iml" filepath="$PROJECT_DIR$/modlue-api/modlue-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/module-goods/module-goods.iml" filepath="$PROJECT_DIR$/module-goods/module-goods.iml" />
-      <module fileurl="file://$PROJECT_DIR$/module-shoppingcar/module-shoppingcar.iml" filepath="$PROJECT_DIR$/module-shoppingcar/module-shoppingcar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/module-user/module-user.iml" filepath="$PROJECT_DIR$/module-user/module-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping.iml" filepath="$PROJECT_DIR$/shopping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-consumer-80/shopping-consumer-80.iml" filepath="$PROJECT_DIR$/shopping-consumer-80/shopping-consumer-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopping-provider-good-8004/shopping-provider-good-8004.iml" filepath="$PROJECT_DIR$/shopping-provider-good-8004/shopping-provider-good-8004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-api/springcloud-api.iml" filepath="$PROJECT_DIR$/springcloud-api/springcloud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-3344/springcloud-config-3344.iml" filepath="$PROJECT_DIR$/springcloud-config-3344/springcloud-config-3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-client-3355/springcloud-config-client-3355.iml" filepath="$PROJECT_DIR$/springcloud-config-client-3355/springcloud-config-client-3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-feign/springcloud-consumer-feign.iml" filepath="$PROJECT_DIR$/springcloud-consumer-feign/springcloud-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-7001/springcloud-eureka-7001.iml" filepath="$PROJECT_DIR$/springcloud-eureka-7001/springcloud-eureka-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-7002/springcloud-eureka-7002.iml" filepath="$PROJECT_DIR$/springcloud-eureka-7002/springcloud-eureka-7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-fegin/springcloud-fegin.iml" filepath="$PROJECT_DIR$/springcloud-fegin/springcloud-fegin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider-good-8002/springcloud-provider-good-8002.iml" filepath="$PROJECT_DIR$/springcloud-provider-good-8002/springcloud-provider-good-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider-shoppingcar-8003/springcloud-provider-shoppingcar-8003.iml" filepath="$PROJECT_DIR$/springcloud-provider-shoppingcar-8003/springcloud-provider-shoppingcar-8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider-user-8001/springcloud-provider-user-8001.iml" filepath="$PROJECT_DIR$/springcloud-provider-user-8001/springcloud-provider-user-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider-user-hystrix-8001/springcloud-provider-user-hystrix-8001.iml" filepath="$PROJECT_DIR$/springcloud-provider-user-hystrix-8001/springcloud-provider-user-hystrix-8001.iml" />
     </modules>
   </component>
 </project>

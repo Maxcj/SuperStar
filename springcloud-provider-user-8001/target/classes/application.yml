@@ -1,0 +1,45 @@
+server:
+  port: 8001
+
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
+  type-aliases-package: cn.maxcj.springcloud.entities       # 所有Entity别名类所在包
+  mapper-locations:
+  - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
+
+spring:
+   application:
+    name: shopping-user
+   datasource:
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
+    driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
+    url: jdbc:mysql://maxcj.cn:3306/superstar_user          # 数据库名称
+    username: root
+    password: Zhong0508@@
+    dbcp2:
+      min-idle: 5                                           # 数据库连接池的最小维持连接数
+      initial-size: 5                                       # 初始化连接数
+      max-total: 5                                          # 最大连接数
+      max-wait-millis: 200
+   thymeleaf:
+     prefix: classpath:/templates/
+     suffix: .html
+     mode: HTML5
+     encoding: UTF-8
+     content-type: text/html
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+  instance:
+    instance-id: shopping-user-8001
+    prefer-ip-address: true
+
+info:
+  app.name: User
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+
+
+

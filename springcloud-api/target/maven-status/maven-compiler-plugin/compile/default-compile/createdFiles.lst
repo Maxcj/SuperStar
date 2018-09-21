@@ -1,0 +1,8 @@
+cn\maxcj\springcloud\entities\UserInfo.class
+cn\maxcj\springcloud\entities\Goods.class
+cn\maxcj\springcloud\service\GoodsClientService.class
+cn\maxcj\springcloud\entities\User.class
+cn\maxcj\springcloud\entities\Order.class
+cn\maxcj\springcloud\service\GoodsTypeClientService.class
+cn\maxcj\springcloud\entities\GoodsType.class
+cn\maxcj\springcloud\service\UserClientService.class
